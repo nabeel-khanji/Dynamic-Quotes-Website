@@ -10,12 +10,14 @@ body {
 .container {
     display: flex;
     height: 500px;
+    /* width: 1000px; */
     justify-content: center;
     align-items: center;
 }
 
 .inner {
     width: 284px;
+    position: relative;
     /* padding: 10px 10px 0px 10px; */
     border: 1px solid #BFBFBF;
     background-color: white;
@@ -24,10 +26,20 @@ body {
 }
 
 .number {
-    background-color: #ebebeb;
-    display: inline-block;
+    /* background-color: #ebebeb; */
+    /* display: inline-block; */
     /* display: flex; */
-    border-radius: 20px;
+    border-radius: 50px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: absolute;
+    right: -5%;
+    height: 50px;
+    width: 50px;
+    top: -5%;
+    background-color: rgba(255, 255, 255, 0.673);
+    box-shadow: 5px 5px 10px #aaaaaa9f;
 }
 
 .text .start-quotes {
@@ -49,7 +61,7 @@ body {
     /* height: 200px; */
     font-size: 15px;
     padding: 10px 0px 10px 10px;
-    display: inline-block;
+    /* display: inline-block; */
 }
 
 .box .button p {
